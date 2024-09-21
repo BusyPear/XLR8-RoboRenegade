@@ -1,3 +1,6 @@
+// This code is to be uploaded in Arduino Nano, which will be used to power the servo motor for the electrical actuation of the cannon. 
+
+
 #include <Servo.h>
 Servo ourservo;
 // Pin assignment for signal read from Rpi Pico W
