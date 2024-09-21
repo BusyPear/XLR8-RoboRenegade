@@ -131,6 +131,9 @@ void activateServo(){
   float gz = myMessage.gz;
   // Motor actuation implementation
   if (abs(gx==20) || abs(gy==20) || abs(gz==20)) {
+    spd=0;
+    analogWrite(ENA, spd);
+    analogWrite(ENB, spd);
     digitalWrite(serv,HIGH);
     Serial.print("Servo should work now");
     setColour(255,0,0);
