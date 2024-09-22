@@ -13,7 +13,7 @@ Team RoboRenegade
 	&emsp;➢We can precisely control its speed by changing the controller's angle. <br />
 	&emsp;➢We modified the code in Rpi Pico W to establish a linear relationship between the controller's angle and the bot's speed.<br /><br />
 (3) RGB LED brightness: <br />
-	&emsp;➢Our LED was brighter than others because we connected it to 5V power supply of motor driver. <br />
+	&emsp;➢Our RGB LED(Common Anode) was brighter than others because we connected it to 5V power supply of motor driver. <br />
 	&emsp;➢The brightness of an RGB LED attached to our bot also depended upon the bot's speed. <br /><br />
 (4) Trigger of the cannon: <br />
 	&emsp;➢We saw gold in what others do not even see dust<br />
